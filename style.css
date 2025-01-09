@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    background-color: #16213e;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.header .nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header .btn {
+    background-color: #e94560;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+}
+
+.hero .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #e94560;
+}
+
+.hero .name {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.hero .role {
+    font-size: 18px;
+    color: #e94560;
+}
+
+.hero .scroll {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* About Section */
+.about {
+    background-color: #0f3460;
+    padding: 60px 20px;
+}
+
+.about .section-title {
+    color: #e94560;
+    font-size: 24px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1 1 45%;
+    margin-right: 20px;
+}
+
+.about-details {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-details ul li {
+    margin-bottom: 10px;
+}
+
+.about .btn {
+    background-color: #e94560;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 20px;
+    background-color: #1a1a2e;
+}
+
+.services .section-title {
+    color: #e94560;
+    font-size: 24px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-card {
+    flex: 1 1 30%;
+    background-color: #0f3460;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #0f3460;
+    padding: 60px 20px;
+}
+
+.contact .section-title {
+    color: #e94560;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a1a2e;
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #e94560;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ff5e78;
+}
+
+/* Footer */
+.footer {
+    background-color: #16213e;
+    text-align: center;
+    padding: 15px 0;
+}
